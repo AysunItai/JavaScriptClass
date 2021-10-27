@@ -1,1 +1,66 @@
-<mxfile host="app.diagrams.net" modified="2021-10-27T05:19:21.884Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="J3UMMd9iEZx0QmY6ArGk" version="15.5.8" type="github"><diagram id="5k370UJEQ2Vip4GgY0lP" name="Page-1">xZRLU4MwEIB/DePJGUh81KOttY6PixzseHEirCQjJDUshfrr3UAoZTqd0YPTS0i+3by+hAR8VjQLK1byyaSQByxMm4DfBIxdThiVDmw6cMYvOpBZlXYoGkCsvsHD0NNKpVCOEtGYHNVqDBOjNSQ4YsJaU4/TPkw+nnUlMtgDcSLyffqiUpQdnZyHA78Dlcl+5ij0kUL0yR6UUqSm3kF8HvCZNQa7WtHMIHfuei9dv9sD0e3CLGj8TYemWcaLh6+X5dvr2TMrr+8fputTP8pa5JXf8HztxmPhoyoRNNhWOBW1wES2Bh0STnmukk/6Gk3FSYnC4gnV3itEh9o946YXaU2lU3BrCQM+raVCiFcicdGabg4xiUVOrYiqflVgEZqD2422EunygSkA7YZSfAfWH0R/8XyzHk6RX3kmd06wzxP+4mTbkQe3VPF6/6Ca7asulDMtnD/w2kkjKp0561I4gKpoD0HSgtowOUmPbzca250c2y7fsxs7Ve3LUGmvlP4/3ZqFQeyxRbKxyIj9n0lqDs9NG9t5s/n8Bw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-27T05:30:47.537Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="3h_rk9TV3aukf8-La49o" version="15.5.8" type="github">
+  <diagram id="5k370UJEQ2Vip4GgY0lP" name="Page-1">
+    <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xxXSGKqWX_Z4R2sAJKBv-1" value="Event Listener to watch for a click on &#39;start&#39; button" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="40" width="390" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xxXSGKqWX_Z4R2sAJKBv-2" value="Emit an event stating that timer has started" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="80" width="380" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xxXSGKqWX_Z4R2sAJKBv-3" value="Start counting down the timer" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="120" width="380" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hkjGfHRumK_yuW2bb-cR-1" value="Emit an even that timer has ticked" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="160" width="380" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hkjGfHRumK_yuW2bb-cR-2" value="Each time the timer counts down update the text" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="200" width="380" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hkjGfHRumK_yuW2bb-cR-3" value="If we counted down and timer reaches zero" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="240" width="380" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hkjGfHRumK_yuW2bb-cR-4" value="Emit an event that timer is done" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="280" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hkjGfHRumK_yuW2bb-cR-5" value="Reset internal timer to get ready for another run" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="320" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hkjGfHRumK_yuW2bb-cR-6" value="Possible Implementation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="95" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hkjGfHRumK_yuW2bb-cR-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=28;" edge="1" parent="1" source="hkjGfHRumK_yuW2bb-cR-7" target="xxXSGKqWX_Z4R2sAJKBv-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hkjGfHRumK_yuW2bb-cR-7" value="&lt;p style=&quot;line-height: 0.5&quot;&gt;&lt;font style=&quot;font-size: 28px&quot;&gt;gh&lt;/font&gt;&lt;/p&gt;" style="shape=tape;whiteSpace=wrap;html=1;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="650" y="50" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hkjGfHRumK_yuW2bb-cR-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=28;" edge="1" parent="1" source="hkjGfHRumK_yuW2bb-cR-12" target="hkjGfHRumK_yuW2bb-cR-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hkjGfHRumK_yuW2bb-cR-12" value="" style="shape=tape;whiteSpace=wrap;html=1;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="650" y="130" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hkjGfHRumK_yuW2bb-cR-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=28;" edge="1" parent="1" source="hkjGfHRumK_yuW2bb-cR-13" target="hkjGfHRumK_yuW2bb-cR-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hkjGfHRumK_yuW2bb-cR-13" value="" style="shape=tape;whiteSpace=wrap;html=1;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="650" y="210" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hkjGfHRumK_yuW2bb-cR-14" value="" style="endArrow=classic;html=1;rounded=0;fontSize=28;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="230" as="sourcePoint" />
+            <mxPoint x="450" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hkjGfHRumK_yuW2bb-cR-15" value="" style="shape=message;html=1;outlineConnect=0;fontSize=28;" vertex="1" parent="hkjGfHRumK_yuW2bb-cR-14">
+          <mxGeometry width="20" height="14" relative="1" as="geometry">
+            <mxPoint x="-10" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
